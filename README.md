@@ -15,7 +15,6 @@ Welcome to **AI Builder**, a visual graph-based web application for building and
 - **Modular Node System** – Easily register and define new custom nodes.
 - **CSV and Image Dataset Support** – Supports both CSV-based ML and COCO-style image tasks.
 - **Dynamic Model Injection** – Input/output wiring and auto property syncing between nodes.
-- **Auto Propagation of in/out Features** – Automatically updates in_features and out_features between connected nodes.
 - **Training + Prediction Nodes** – Add `Trainer` and `Single Predict` nodes with real-time interactivity.
 - **Autosave Graphs** – Automatically saves your work and allows you to reload at any time.
 - **Custom Widget System** – Define widget-based inputs for any node (e.g., dropdowns, text inputs, buttons).
