@@ -156,8 +156,6 @@ This is why Model nodes do **not** use `build()` — they are **passively walked
 | `run_early: True`    | build before model construction (data/config/preprocessing)       |
 | `run_after_train: True` | build after training (evaluators, savers, predictors)          |
 | `register_runtime: True` | track runtime nodes like Trainer                              |
-| `no_autobuild: True` | exclude from model walkback (useful for custom logic)             |
-| `hidden: True`       | hide from UI menu                                                 |
 
 ---
 
