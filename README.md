@@ -19,7 +19,8 @@ Welcome to **AI Builder**, a visual graph-based web application for building and
 
 ## 📸 Screenshots
 
-_Coming soon — insert here screenshots of the web UI in action._
+![image](https://github.com/user-attachments/assets/2495a418-2cef-4e50-a98b-0d6202dc0de8)
+
 
 ---
 
