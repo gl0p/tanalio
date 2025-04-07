@@ -143,7 +143,7 @@ This is why Model nodes do **not** use `build()` — they are **passively walked
 | Phase              | Who Runs                                                 |
 |--------------------|-----------------------------------------------------------|
 | `run_early` nodes  | built first (data loaders, hyperparams, flatteners)       |
-| Model nodes        | walked and assembled from `OutputLayer` via `get_layer()` |
+| `Model` nodes        | walked and assembled from `OutputLayer` via `get_layer()` |
 | `TrainerNode`      | receives final model + dataloaders + hyperparams          |
 | `run_after_train`  | run after training (evaluators, exporters, predictors)    |
 
