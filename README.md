@@ -78,7 +78,7 @@ widgets = [
 ]
 ```
 
-Widgets define user inputs in the UI. See the full widget list above.
+Widgets define user inputs in the UI.
 
 ---
 
