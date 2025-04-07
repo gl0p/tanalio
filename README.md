@@ -225,12 +225,5 @@ def on_widget_event(self, event_type, payload):
 ---
 
 
-## 🤝 Let's Collaborate
-
-Have ideas, feedback, or want to collaborate?
-
-📬 **Email**: [arc.vortex@gmail.com](mailto:arc.vortex@gmail.com)  
-💬 **Open an Issue**: [GitHub Issues](https://github.com/gl0p/tanalio/issues)
-
 
 
