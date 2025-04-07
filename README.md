@@ -225,4 +225,13 @@ def on_widget_event(self, event_type, payload):
 ---
 
 
+## 🤝 Let's Collaborate
+
+Have ideas, feedback, or want to collaborate?
+
+📬 **Email**: [yourname@example.com](mailto:yourname@example.com)  
+💬 **Open an Issue**: [GitHub Issues](https://github.com/yourusername/ai-builder/issues)
+
+I’m always open to helping out, answering questions, or working together on cool ideas!
+
 
