@@ -110,8 +110,7 @@ class DenseLayer(BaseModelNode):
         return nn.Linear(self.in_features, self.out_features)
 ```
 
-**Why?**  
-Model nodes don’t build themselves directly. Instead:
+**Why?**  Model nodes don’t build themselves directly. 
 
 ---
 
