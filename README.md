@@ -2,9 +2,9 @@
 
 ---
 
-# 🧠 AI Builder - Visual Deep Learning Workflow UI
+# 🧠 Tanalio - Visual Deep Learning Workflow UI
 
-Welcome to **AI Builder**, a visual graph-based web application for building and running deep learning workflows — no boilerplate code needed. Inspired by ComfyUI, this app allows you to chain together custom nodes (like layers, preprocessors, trainers, and predictors) to build, train, and test deep learning models through an intuitive UI.
+Welcome to **Tanalio**, a visual graph-based web application for building and running deep learning workflows — no boilerplate code needed. Inspired by ComfyUI, this app allows you to chain together custom nodes (like layers, preprocessors, trainers, and predictors) to build, train, and test deep learning models through an intuitive UI.
 
 ---
 
