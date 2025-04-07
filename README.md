@@ -1,3 +1,7 @@
+![image](https://github.com/user-attachments/assets/2495a418-2cef-4e50-a98b-0d6202dc0de8)
+
+---
+
 # 🧠 AI Builder - Visual Deep Learning Workflow UI
 
 Welcome to **AI Builder**, a visual graph-based web application for building and running deep learning workflows — no boilerplate code needed. Inspired by ComfyUI, this app allows you to chain together custom nodes (like layers, preprocessors, trainers, and predictors) to build, train, and test deep learning models through an intuitive UI.
@@ -14,15 +18,6 @@ Welcome to **AI Builder**, a visual graph-based web application for building and
 - **Training + Prediction Nodes** – Add `Trainer` and `Single Predict` nodes with real-time interactivity.
 - **Autosave Graphs** – Automatically saves your work and allows you to reload at any time.
 - **Custom Widget System** – Define widget-based inputs for any node (e.g., dropdowns, text inputs, buttons).
-
----
-
-## 📸 Screenshots
-
-![image](https://github.com/user-attachments/assets/2495a418-2cef-4e50-a98b-0d6202dc0de8)
-
-
----
 
 ## 📦 Project Structure
 
