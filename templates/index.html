@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tanalio</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/litegraph.css') }}">
+</head>
+<body>
+  <button id="exportGraphBtn" style="position: absolute; top: 10px; left: 10px; z-index: 9999;">Build AI</button>
+
+  <input type="file" id="folderPicker" style="display:none" webkitdirectory />
+  <!-- File Picker (for CSV files) -->
+  <input type="file" id="filePicker" style="display:none" />
+
+  <button id="saveGraphBtn" style="position: absolute; top: 50px; left: 10px; z-index: 9999;">💾 Save Graph</button>
+  <button id="loadGraphBtn" style="position: absolute; top: 90px; left: 10px; z-index: 9999;">📂 Load Graph</button>
+
+  <input type="file" id="importGraphInput" accept=".json" style="display: none" />
+  <button id="pauseBtn" style="position: absolute; top: 130px; left: 10px; z-index: 9999;">⏸ Pause</button>
+  <button id="resumeBtn" style="position: absolute; top: 170px; left: 10px; z-index: 9999;">▶️ Resume</button>
+  <button id="stopBtn" style="position: absolute; top: 210px; left: 10px; z-index: 9999;">🛑 Stop</button>
+
+  <!-- Toast Container -->
+  <div id="toastContainer" style="
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    max-width: 300px;
+    font-family: monospace;
+  "></div>
+
+
+
+  <canvas id="graphCanvas" width="1920" height="1080"></canvas>
+  <script src="{{ url_for('static', filename='js/litegraph.js') }}"></script>
+  <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+</body>
+</html>
