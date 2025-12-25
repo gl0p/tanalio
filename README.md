@@ -6,6 +6,8 @@
 
 Welcome to **Tanalio**, a visual graph-based web application for building and running deep learning workflows — no boilerplate code needed. Inspired by ComfyUI, this app allows you to chain together custom nodes (like layers, preprocessors, trainers, and predictors) to build, train, and test deep learning models through an intuitive UI.
 
+I built Tanalio to bridge the gap between modeling ML architecture and every day hobbiests, making it easier for no-code generation of ML models. Drag, drop and train.
+
 ---
 
 ## 🚀 Features
@@ -19,9 +21,32 @@ Welcome to **Tanalio**, a visual graph-based web application for building and ru
 - **Autosave Graphs** – Automatically saves your work and allows you to reload at any time.
 - **Custom Widget System** – Define widget-based inputs for any node (e.g., dropdowns, text inputs, buttons).
 
+## 🛠️ Tech Stack
+
+**Backend:**
+- Python + Flask
+- Flask-SocketIO (WebSocket communication)
+- PyTorch (deep learning framework)
+
+**Frontend:**
+- Vanilla JavaScript
+- HTML5 Canvas (node graph visualization)
+- CSS3
+
+**Data Processing:**
+- Pandas (CSV handling)
+- COCO dataset format support
 
 # 🧩 Creating Custom Nodes -  Define, Connect, and Build 
 
+## Quick Start
+```bash
+   git clone https://github.com/gl0p/tanalio
+   cd tanalio
+   pip install -r requirements.txt  
+   python app.py
+```
+   Open http://localhost:5000
 ## ✅ Quick Overview
 
 Each node is a self-contained class with:
